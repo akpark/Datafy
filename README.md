@@ -18,4 +18,4 @@ An ORM inspired by Ruby on Rails' Active Record. Datify uses complex SQL queries
 
 ##Usage
 
-Datify is easy to use. Simply require the 'datify.rb' file in your project. Extend the 'SQLObject' class on a model. Then, use any of the methods above!
+Datify is very easy to use. Simply require the 'datify.rb' file in your project. Extend the 'SQLObject' class on a model. Then, use any of the methods above!

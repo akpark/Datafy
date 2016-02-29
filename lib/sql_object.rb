@@ -1,8 +1,10 @@
+require 'byebug'
 require_relative 'db_connection'
 require 'active_support/inflector'
 
 class SQLObject
   def self.columns
+    byebug
     return @columns if @columns
     columns ||= DBConnection.execute2(<<-SQL).first
       SELECT
@@ -12,6 +14,7 @@ class SQLObject
     SQL
     columns.map!(&:to_sym)
     @columns = columns
+    byebug
   end
 
   def self.finalize!

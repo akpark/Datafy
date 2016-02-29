@@ -1,4 +1,4 @@
-CREATE TABLE pokemon (
+CREATE TABLE pokemons (
   id INTEGER PRIMARY KEY,
   name VARCHAR(255) NOT NULL,
   owner_id INTEGER,
@@ -37,14 +37,14 @@ VALUES
   (4, "Brock", "Benson", 4);
 
 INSERT INTO
-  pokemon (id, name, owner_id)
+  pokemons (id, name, owner_id)
 VALUES
   (1, "Pikachu", 2),
   (2, "Charizard", 2),
-  (2, "Staryu", 3),
-  (2, "Psyduck", 3),
-  (2, "Geodude", 4),
-  (2, "Onix", 4),
-  (3, "Gyarados", 1),
-  (4, "Treeko", 1),
-  (6, "Lugia", NULL);
+  (3, "Staryu", 3),
+  (4, "Psyduck", 3),
+  (5, "Geodude", 4),
+  (6, "Onix", 4),
+  (7, "Gyarados", 1),
+  (8, "Treeko", 1),
+  (9, "Lugia", NULL);
