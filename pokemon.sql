@@ -1,4 +1,4 @@
-CREATE TABLE cats (
+CREATE TABLE pokemon (
   id INTEGER PRIMARY KEY,
   name VARCHAR(255) NOT NULL,
   owner_id INTEGER,
@@ -23,21 +23,28 @@ CREATE TABLE houses (
 INSERT INTO
   houses (id, address)
 VALUES
-  (1, "26th and Guerrero"), (2, "Dolores and Market");
+  (1, "Fort Lee"),
+  (2, "Pallet Town"),
+  (3, "Cerulean City"),
+  (4, "Pewter City");
 
 INSERT INTO
   humans (id, fname, lname, house_id)
 VALUES
-  (1, "Devon", "Watts", 1),
-  (2, "Matt", "Rubens", 1),
-  (3, "Ned", "Ruggeri", 2),
-  (4, "Catless", "Human", NULL);
+  (1, "Andrew", "Park", 1),
+  (2, "Ash", "Ketchum", 2),
+  (3, "Misty", "Moon", 3),
+  (4, "Brock", "Benson", 4);
 
 INSERT INTO
-  cats (id, name, owner_id)
+  pokemon (id, name, owner_id)
 VALUES
-  (1, "Breakfast", 1),
-  (2, "Earl", 2),
-  (3, "Haskell", 3),
-  (4, "Markov", 3),
-  (5, "Stray Cat", NULL);
+  (1, "Pikachu", 2),
+  (2, "Charizard", 2),
+  (2, "Staryu", 3),
+  (2, "Psyduck", 3),
+  (2, "Geodude", 4),
+  (2, "Onix", 4),
+  (3, "Gyarados", 1),
+  (4, "Treeko", 1),
+  (6, "Lugia", NULL);
