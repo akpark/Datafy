@@ -1,6 +1,11 @@
 # Datify
 An ORM inspired by Ruby on Rails' Active Record. Datify uses complex SQL queries to communicate with a SQLite Database. By manipulating the data retrieved, Datify creates objects with simplified methods (shown below) cutting out time/work and easy interaction between developer and database.
 
+##Setup
+Datify uses [SQLite3](https://www.sqlite.org/) as its database. Please follow the link and download SQLite3 before using Datify.
+
+Currently, the file, `pokemon.sql` is for demo purposes. To link to your database, change the variables: `POKEMON_SQL_FILE` and `POKEMON_DB_FILE` in `db_connection.rb` under the lib folder.
+
 ##Methods and Associations
 
 * ::find(id)
