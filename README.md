@@ -1,5 +1,5 @@
 # Datify
-An ORM inspired by Ruby on Rails' Active Record. Active Record Lite uses complex SQL queries to communicate with a SQLite Database. By manipulating the data retrieved, ACL creates objects with simplified methods (shown below) cutting out time/work and easy interaction between developer and database.
+An ORM inspired by Ruby on Rails' Active Record. Datify uses complex SQL queries to communicate with a SQLite Database. By manipulating the data retrieved, Datify creates objects with simplified methods (shown below) cutting out time/work and easy interaction between developer and database.
 
 ##Methods and Associations
 
